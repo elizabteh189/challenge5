@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-areas: "principal";
+  justify-content: center;
+}
+@media (min-width: 1104px) {
+  .principal {
+    grid-template-columns: 1fr;
+    grid-template-areas: "principal ";
+  }
+}
+.principal .sect1 {
+  grid-area: principal;
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 1104px) {
+  .principal .sect1 {
+    justify-content: center;
+    padding: 100px 0;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1__top {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1__articles {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1 .sect1__articlecubo {
+    margin-top: 65px;
+    margin-left: -55px;
+    margin-right: -55px;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1 .sect1__articlecubo2 {
+    margin-top: 85px;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1 .star1 {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1 .star2 {
+    margin-left: 130px;
+  }
+}
+.principal .sect1__conte {
+  width: 320px;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__conte {
+    padding-left: 76px;
+    width: 500px;
+  }
+}
+.principal .sect1__text {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__text {
+    width: 390px;
+  }
+}
+.principal .sect1__title {
+  width: 75%;
+  font-size: 25px;
+  margin: auto;
+  font-family: "Spartan", sans-serif;
+  margin-top: 60px;
+  color: #502050;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__title {
+    text-align: left;
+    margin-left: 0px;
+    width: 75%;
+    margin-top: 0;
+    font-size: 33px;
+  }
+}
+.principal .sect1__paragraph {
+  font-size: 12px;
+  font-family: "Spartan", sans-serif;
+  width: 85%;
+  margin: auto;
+  line-height: 20px;
+  margin-top: 15px;
+  color: #502050;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__paragraph {
+    width: 95%;
+    text-align: left;
+    margin-left: 0;
+  }
+}
+.principal .sect1__stars img {
+  width: 12px;
+  height: 12px;
+}
+.principal .sect1__stars-paragraph {
+  color: #502050;
+  font-family: "Spartan", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.principal .sect1__calif {
+  margin-top: 17px;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__calif {
+    width: 520px;
+    margin-top: 0;
+  }
+}
+.principal .sect1__caja {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 12px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightgray;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__caja {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 1104px) {
+  .principal .sect1__stars {
+    margin-left: 15px;
+  }
+}
+.principal .sect1__article {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 25px;
+  background-color: #502050;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__article {
+    width: 270px;
+    margin-top: 45px;
+    height: 180px;
+    border-radius: 8px;
+  }
+}
+.principal .sect1__span {
+  color: hotpink;
+  font-size: 10px;
+}
+.principal .sect1__artname {
+  display: flex;
+}
+.principal .sect1__artname img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.principal .sect1__artdescrip {
+  margin-left: 15px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: "Spartan", sans-serif;
+}
+.principal .sect1__artparag {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 19px;
+  color: white;
+  font-family: "Spartan", sans-serif;
+}
+@media (min-width: 1104px) {
+  .principal .sect1__artparag {
+    font-size: 9px;
+  }
+}
+
+/*# sourceMappingURL=customer.css.map */
